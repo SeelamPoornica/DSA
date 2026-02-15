@@ -1,4 +1,4 @@
-public class Main{
+public class ShortestPath{
     public static void sssp(double[] dist,double[][] cost,int v,int n){
         boolean[] s=new boolean[n];
         for(int i=0;i<n;i++){
@@ -46,3 +46,4 @@ public class Main{
         }
     }
 }
+
